@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, #b71c1c, #000);
+}
+.hero .logo {
+  width: 150px;
+  height: auto;
+}
+h1, h2 { margin: 10px 0; }
+section { padding: 50px 20px; }
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #fff;
+  color: #b71c1c;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+.gallery-item { background: #222; height: 150px; }
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+form button {
+  padding: 10px 20px;
+  background: #b71c1c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
